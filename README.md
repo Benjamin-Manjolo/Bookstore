@@ -1,7 +1,7 @@
-
 # Bookstore
-Author : Benjamin Manjolo 
-This is PERN-based project
+
+Author : Benjamin Manjolo
+This is PERN-STACK based project
 **Project: Bookstore Inventory Manager**
 A **CRUD** application to manage book inventory, tracking title, author, and quantity.
 Key Features
@@ -20,4 +20,3 @@ Implements database relationships (if you add genres/categories)
 Demonstrates API communication
 Shows state management in React
 Maintains separation of concerns
-
