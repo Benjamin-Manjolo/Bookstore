@@ -1,4 +1,6 @@
+
 # Bookstore
+Author : Benjamin Manjolo 
 This is PERN-based project
 **Project: Bookstore Inventory Manager**
 A **CRUD** application to manage book inventory, tracking title, author, and quantity.
