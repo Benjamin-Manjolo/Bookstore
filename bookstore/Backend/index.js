@@ -6,10 +6,12 @@ require("dotenv").config();
 // Middleware
 app.use(express.json());
 
+const cors = require("cors");
+app.use(cors());
 const bookRoutes = require("./routes/bookRoutes");
 
 // Routes
-app.use("/books", bookRoutes);
+app.use("/api/books", bookRoutes);
 app.get("/", (req, res) => {
   res.send("Backend is running!");
 });
